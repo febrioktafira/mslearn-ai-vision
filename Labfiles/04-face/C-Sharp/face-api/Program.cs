@@ -39,7 +39,7 @@ namespace analyze_faces
                 switch (command)
                 {
                     case "1":
-                        await DetectFaces("images/people.jpg");
+                        await DetectFaces("images/people2.jpg");
                         break;
                     default:
                         break;
