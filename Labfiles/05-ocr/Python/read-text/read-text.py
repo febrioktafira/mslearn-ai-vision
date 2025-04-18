@@ -26,10 +26,10 @@ def main():
         )
 
         # Menu for text reading functions
-        print('\n1: Use Read API for image (Lincoln.jpg)\n2: Read handwriting (Note.jpg)\nAny other key to quit\n')
+        print('\n1: Use Read API for image (Quote.jpg)\n2: Read handwriting (Note.jpg)\nAny other key to quit\n')
         command = input('Enter a number:')
         if command == '1':
-            image_file = os.path.join('images','Lincoln.jpg')
+            image_file = os.path.join('images','Quote.jpg')
             GetTextRead(image_file)
         elif command =='2':
             image_file = os.path.join('images','Note.jpg')
